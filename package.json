@@ -1,0 +1,8 @@
+{
+  "name": "triage-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo 'No tests configured' && exit 0"
+  },
+  "description": "Demo repo for Triage CI healer"
+}
