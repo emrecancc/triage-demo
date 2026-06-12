@@ -1,5 +1,3 @@
 # triage-demo
 
-Demo repo for Triage CI Healer.
-
-Trigger #3 - FULL PIPELINE TEST - 04:12:27
+Trigger #4 - FINAL TEST with after() - 04:19:53
