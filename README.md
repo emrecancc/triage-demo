@@ -1,5 +1,5 @@
 # triage-demo
 
-Demo repo for testing Triage CI Healer webhook.
+Demo repo for Triage CI Healer.
 
-Trigger #2 (full pipeline test) - 04:00:32
+Trigger #3 - FULL PIPELINE TEST - 04:12:27
