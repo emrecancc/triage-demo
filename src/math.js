@@ -1,15 +1,14 @@
 const chalk = require("chalk");
 
 function add(a, b) {
-  return a + b
-  // missing semicolon above causes parser to merge with next line
+  return a + b;
 }
 
 function formatResult(label, value) {
   return chalk.green(`${label}: ${value}`);
 }
 
-function multiply(a, b {
+function multiply(a, b) {
   return a * b;
 }
 

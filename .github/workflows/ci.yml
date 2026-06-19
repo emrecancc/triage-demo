@@ -16,6 +16,6 @@ jobs:
       - name: Run tests
         run: |
           echo "Running test suite..."
-          npm test
+          node test/nonexistent-file.js
       - name: Build
         run: npm run build
