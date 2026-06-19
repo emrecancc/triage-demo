@@ -1,15 +1,13 @@
 {
   "name": "triage-demo",
   "version": "1.0.0",
-  "private": true,
-  "engines": {
-    "node": ">=18"
-  },
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "node test/run.js",
-    "build": "node -e \"console.log('build ok')\""
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo 'No build step yet'"
   },
-  "dependencies": {
-    "chalk": "^5.3.0"
-  }
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
