@@ -1,16 +1,20 @@
 {
   "name": "triage-demo",
   "version": "1.0.0",
-  "private": true,
-  "engines": {
-    "node": ">=18"
-  },
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "node test/run.js",
-    "build": "node -e \"console.log('build ok')\""
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "chalk": "^5.3.0",
-    "INVALID_PACKAGE_NAME!!!": "x.x.x"
+    "@actions/core": "^1.10.1",
+    "@actions/github": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
   }
 }
