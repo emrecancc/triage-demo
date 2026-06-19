@@ -1,6 +1,6 @@
 {
   "name": "triage-demo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "engines": {
     "node": ">=18"
@@ -9,7 +9,5 @@
     "test": "node test/run.js",
     "build": "node -e \"console.log('build ok')\""
   },
-  "dependencies": {
-    "chalk": "^5.3.0"
-  }
+  "dependencies": {}
 }
