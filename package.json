@@ -11,6 +11,6 @@
   },
   "dependencies": {
     "chalk": "^5.3.0",
-    "INVALID_PACKAGE_NAME!!!": "x.x.x"
+    INVALID_JSON_HERE
   }
 }
