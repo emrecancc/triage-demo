@@ -9,5 +9,7 @@
     "test": "node test/run.js",
     "build": "node -e \"console.log('build ok')\""
   },
-  "dependencies": {}
+  "dependencies": {
+    "chalk": "^5.3.0"
+  }
 }
