@@ -9,7 +9,5 @@
     "test": "node test/run.js",
     "build": "node -e \"console.log('build ok')\""
   },
-  "dependencies": {
-    "_triage_test": "1.0.0"
-  }
+  "dependencies": {}
 }
