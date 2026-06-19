@@ -9,8 +9,5 @@
     "test": "node test/run.js",
     "build": "node -e \"console.log('build ok')\""
   },
-  "dependencies": {
-    "chalk": "^5.3.0",
-    INVALID_JSON_HERE
-  }
+  "dependencies": {}
 }
