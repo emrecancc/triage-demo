@@ -1,16 +1,1 @@
-{
-  "name": "triage-demo",
-  "version": "1.0.0",
-  "private": true,
-  "engines": {
-    "node": ">=18"
-  },
-  "scripts": {
-    "test": "node test/run.js",
-    "build": "node -e \"console.log('build ok')\""
-  },
-  "dependencies": {
-    "chalk": "^5.3.0",
-    INVALID_JSON_HERE
-  }
-}
+{"name": "triage-demo", "version": "1.0.0", "description": "", "main": "index.js", "scripts": {"test": "echo \"Error: no test specified\" && exit 1"}, "keywords": [], "author": "", "license": "ISC"}
