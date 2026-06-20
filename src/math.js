@@ -1,4 +1,5 @@
 const chalk = require("chalk");
+const chalk_template = require("chalk-template");
 
 function add(a, b) {
   return a + b;
