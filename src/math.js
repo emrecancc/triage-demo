@@ -1,12 +1,12 @@
 const chalk = require("chalk");
-const { v4: uuidv4 } = require("uuid");
+const uuid = require("uuid");
 
 function add(a, b) {
   return a + b;
 }
 
 function formatResult(label, value) {
-  return chalk.green(`${label}: ${value} (id=${uuidv4()})`);
+  return chalk.green(`${label}: ${value}`);
 }
 
 function multiply(a, b) {
