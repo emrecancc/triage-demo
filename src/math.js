@@ -1,4 +1,5 @@
 const chalk = require("chalk");
+const validator = require("validator");
 
 function add(a, b) {
   return a + b;
