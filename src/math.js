@@ -1,4 +1,5 @@
 const chalk = require("chalk");
+const cli_table3 = require("cli-table3");
 
 function add(a, b) {
   return a + b;
