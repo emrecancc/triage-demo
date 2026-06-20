@@ -1,4 +1,5 @@
 const chalk = require("chalk");
+const slugify = require("slugify");
 
 function add(a, b) {
   return a + b;
