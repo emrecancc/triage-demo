@@ -1,4 +1,5 @@
 const chalk = require("chalk");
+const mime = require("mime");
 
 function add(a, b) {
   return a + b;
