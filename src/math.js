@@ -1,4 +1,5 @@
 const chalk = require("chalk");
+const is_number = require("is-number");
 
 function add(a, b) {
   return a + b;
