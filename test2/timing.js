@@ -1,13 +1,11 @@
 const assert = require("assert");
-
 async function test_async_timing() {
   const start = Date.now();
   await new Promise(resolve => setTimeout(resolve, 50));
   const elapsed = Date.now() - start;
-  assert.ok(elapsed < 33, `Expected < 33ms but got ${elapsed}ms`);
+  assert.ok(elapsed < 60, `Expected < 60ms but got ${elapsed}ms`);
   console.log(`Timing test passed: ${elapsed}ms`);
 }
-
 test_async_timing().catch(err => {
   console.error("FAIL:", err.message);
   process.exit(1);
