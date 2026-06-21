@@ -1,4 +1,5 @@
 const chalk = require("chalk");
+const yocto_queue = require("yocto-queue");
 
 function add(a, b) {
   return a + b;
