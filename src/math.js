@@ -1,4 +1,5 @@
 const chalk = require("chalk");
+const kleur = require("kleur");
 
 function add(a, b) {
   return a + b;
