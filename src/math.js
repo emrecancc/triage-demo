@@ -1,4 +1,5 @@
 const chalk = require("chalk");
+const minimist = require("minimist");
 
 function add(a, b) {
   return a + b;
