@@ -2,14 +2,10 @@ const chalk = require("chalk");
 
 function add(a, b) {
   return a + b;
-}
-
-function formatResult(label, value) {
-  return chalk.green(`${label}: ${value}`);
-}
+// missing closing brace
 
 function multiply(a, b) {
   return a * b;
 }
 
-module.exports = { add, multiply, formatResult };
+module.exports = { add, multiply };
