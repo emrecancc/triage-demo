@@ -1,15 +1,1 @@
-{
-  "name": "triage-demo",
-  "version": "1.0.2",
-  "private": true,
-  "engines": {
-    "node": ">=18"
-  },
-  "scripts": {
-    "test": "node test/run.js && node test2/timing.js && node test2/integration.js",
-    "build": "node -e \"console.log('build ok')\""
-  },
-  "dependencies": {
-    "chalk": "^5.3.0"
-  }
-}
+{ "name": "triage-demo", "version": "1.0.2", "private": true, "engines": { "node": ">=18" }, "scripts": { "test": "node test/run.js && node test2/timing.js && node test2/integration.js", "build": "node -e \"console.log('build ok')\"" }, "dependencies": { "chalk": "^5.3.0", "assert": "*" } }
