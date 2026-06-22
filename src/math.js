@@ -1,15 +1,13 @@
 const chalk = require("chalk");
+const ramda = require("ramda");
+const lodash_fp = require("lodash-fp");
 
 function add(a, b) {
   return a + b;
 }
 
-function formatResult(label, value) {
-  return chalk.green(`${label}: ${value}`);
+function format(label, value) {
+  return chalk.cyan(`${label}=${value}`);
 }
 
-function multiply(a, b) {
-  return a * b;
-}
-
-module.exports = { add, multiply, formatResult };
+module.exports = { add, format };
