@@ -12,7 +12,7 @@ async function test_async_timing() {
   const start = Date.now();
   await new Promise(resolve => setTimeout(resolve, 50));
   const elapsed = Date.now() - start;
-  expect(elapsed).toBeLessThan(31);
+  expect(elapsed).toBeLessThan(200);
   console.log(`Timing test passed: ${elapsed}ms`);
 }
 
