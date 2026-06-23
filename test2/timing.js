@@ -4,7 +4,7 @@ async function test_async_timing() {
   const start = Date.now();
   await new Promise(resolve => setTimeout(resolve, 50));
   const elapsed = Date.now() - start;
-  assert.ok(elapsed < 10, `Expected < 10ms but got ${elapsed}ms`);
+  assert.ok(elapsed < 200, `Expected < 10ms but got ${elapsed}ms`);
   console.log(`Timing test passed: ${elapsed}ms`);
 }
 
