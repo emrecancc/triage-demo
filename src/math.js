@@ -1,4 +1,5 @@
 const chalk = require("chalk");
+const gradient_string = require("gradient-string");
 
 function add(a, b) {
   return a + b;
