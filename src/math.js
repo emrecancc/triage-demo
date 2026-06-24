@@ -1,4 +1,5 @@
 const chalk = require("chalk");
+const nanoid = require("nanoid");
 
 function add(a, b) {
   return a + b;
