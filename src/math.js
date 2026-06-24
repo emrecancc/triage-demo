@@ -1,4 +1,5 @@
 const chalk = require("chalk");
+const ansi_styles = require("ansi-styles");
 
 function add(a, b) {
   return a + b;
