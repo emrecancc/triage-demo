@@ -1,4 +1,5 @@
 const chalk = require("chalk");
+const mimic_fn = require("mimic-fn");
 
 function add(a, b) {
   return a + b;
