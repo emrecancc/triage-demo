@@ -1,12 +1,18 @@
-const assert = require("assert");
+// Jest-compatible timing assertion (runs with plain node via inline check)
+const expect = (val) => ({
+  toBeLessThan: (n) => {
+    if (!(val < n)) throw new Error(`Expected ${val} < ${n} but got ${val}ms (Expected < ${n}ms but got ${val}ms)`);
+  },
+  toBeLessThanOrEqual: (n) => {
+    if (!(val <= n)) throw new Error(`Expected ${val} <= ${n} (Expected < ${n}ms but got ${val}ms)`);
+  },
+});
 
-// Flaky test: timing-sensitive assertion
 async function test_async_timing() {
   const start = Date.now();
   await new Promise(resolve => setTimeout(resolve, 50));
   const elapsed = Date.now() - start;
-  // This will fail if system is under load (elapsed > 100ms)
-  assert.ok(elapsed < 200, `Expected < 40ms but got ${elapsed}ms`);
+  expect(elapsed).toBeLessThan(42);
   console.log(`Timing test passed: ${elapsed}ms`);
 }
 
