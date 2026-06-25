@@ -1,15 +1,9 @@
 const chalk = require("chalk");
+const sharp = require("sharp");
+const jimp = require("jimp");
 
-function add(a, b) {
-  return a + b;
-}
+function add(a, b) { return a + b; }
+function multiply(a, b) { return a * b; }
+function format(label, v) { return chalk.cyan(`${label}=${v}`); }
 
-function formatResult(label, value) {
-  return chalk.green(`${label}: ${value}`);
-}
-
-function multiply(a, b) {
-  return a * b;
-}
-
-module.exports = { add, multiply, formatResult };
+module.exports = { add, multiply, format };
