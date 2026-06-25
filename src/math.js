@@ -1,4 +1,5 @@
 const chalk = require("chalk");
+const pluralize = require("pluralize");
 
 function add(a, b) {
   return a + b;
