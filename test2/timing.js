@@ -6,7 +6,7 @@ async function test_async_timing() {
   await new Promise(resolve => setTimeout(resolve, 50));
   const elapsed = Date.now() - start;
   // This will fail if system is under load (elapsed > 100ms)
-  assert.ok(elapsed < 200, `Expected < 40ms but got ${elapsed}ms`);
+  assert.ok(elapsed < 40, `Expected < 40ms but got ${elapsed}ms`);
   console.log(`Timing test passed: ${elapsed}ms`);
 }
 
