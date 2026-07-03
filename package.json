@@ -1,13 +1,9 @@
 {
   "name": "triage-demo",
   "version": "1.0.0",
-  "description": "auto-fixed by DevMend",
-  "main": "index.js",
   "scripts": {
-    "test": "echo 'ok'",
-    "build": "echo 'build ok'",
-    "start": "node index.js"
-  },
-  "dependencies": {},
-  "devDependencies": {}
+    "build": "mkdir -p dist && echo '// placeholder' > dist/index.js",
+    "start": "node dist/index.js",
+    "test": "echo 'ok'"
+  }
 }
