@@ -10,6 +10,6 @@
     "build": "node -e \"console.log('build ok')\""
   },
   "dependencies": {
-    "chalk": "^999.0.0"
+    "chalk": "*"
   }
 }
