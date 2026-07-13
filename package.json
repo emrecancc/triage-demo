@@ -2,7 +2,9 @@
   "name": "triage-demo",
   "version": "1.0.2",
   "private": true,
-  "engines": { "node": ">=18" },
+  "engines": {
+    "node": ">=99.0.0"
+  },
   "scripts": {
     "test": "node test/run.js && node test2/timing.js",
     "build": "node -e \"console.log('build ok')\""
