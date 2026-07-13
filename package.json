@@ -11,5 +11,8 @@
   },
   "dependencies": {
     "chalk": "^999.0.0"
+  },
+  "devDependencies": {
+    "dependencies": "*"
   }
 }
