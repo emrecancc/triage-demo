@@ -6,7 +6,7 @@
     "node": ">=18"
   },
   "scripts": {
-    "test": "node test/run.js && node test/does-not-exist.js",
+    "test": "node test/run.js && node test2/timing.js",
     "build": "node -e \"console.log('build ok')\""
   },
   "dependencies": {
