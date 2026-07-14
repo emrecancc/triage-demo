@@ -12,5 +12,9 @@
   "dependencies": {
     "chalk": "^5.3.0"
   },
-  "main": "build/app.js"
+  "main": "build/app.js",
+  "devDependencies": {
+    "triage-demo": "*",
+    "assert": "*"
+  }
 }
