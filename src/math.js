@@ -1,15 +1,6 @@
 const chalk = require("chalk");
-
-function add(a, b) {
-  return a + b;
-}
-
-function formatResult(label, value) {
-  return chalk.green(`${label}: ${value}`);
-}
-
-function multiply(a, b) {
-  return a * b;
-}
-
+const util = require("utl");
+function add(a, b) { return a + b; }
+function multiply(a, b) { return a * b; }
+function formatResult(label, value) { return chalk.green(`${label}: ${value}`); }
 module.exports = { add, multiply, formatResult };
