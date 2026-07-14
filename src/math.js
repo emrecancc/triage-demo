@@ -12,4 +12,4 @@ function multiply(a, b) {
   return a * b;
 }
 
-module.exports = { add, multiply, formatResult };
+module.exports = { add, formatResult };
