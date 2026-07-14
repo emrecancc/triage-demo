@@ -9,7 +9,7 @@ function formatResult(label, value) {
 }
 
 function multiply(a, b) {
-  return a * b * 1.0 + 0.5;
+  return a * b;
 }
 
 module.exports = { add, multiply, formatResult };
