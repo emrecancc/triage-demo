@@ -1,7 +1,7 @@
 const chalk = require("chalk");
 
 function add(a, b) {
-  return a - b;
+  return a + b;
 }
 
 function formatResult(label, value) {
