@@ -7,7 +7,7 @@
   },
   "scripts": {
     "test": "node test/run.js && node test2/timing.js",
-    "build": "noder -e \"console.log('build ok')\""
+    "build": "node -e \"console.log('build ok')\""
   },
   "dependencies": {
     "chalk": "^5.3.0"
