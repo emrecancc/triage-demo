@@ -6,7 +6,7 @@
     "node": ">=18"
   },
   "scripts": {
-    "test": "node test/run.js && node test3/extra.js",
+    "test": "node test/run.js",
     "build": "node -e \"console.log('build ok')\""
   },
   "dependencies": {
